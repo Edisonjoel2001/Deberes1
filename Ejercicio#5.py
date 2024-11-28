@@ -18,7 +18,6 @@ if precio > 100:
 
     print(f"Se aplicó un descuento de ${descuento:.2f}. El monto final a pagar es ${precio_final:.2f}.")#Aqui se imprime si se aplica el descuento  debido al consumo de 100
 
-
 else:
     print(f"No se aplica descuento. El monto final a pagar es ${precio:.2f}.") #Aqui se imprime si no se aplica el descuento  debido al consumo de 100
 
