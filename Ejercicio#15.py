@@ -1,33 +1,14 @@
-#Ejercicio Número 14
+#Ejercicio Número 16
    #Edison Cabezas
      #Tercer Semestre
         #Primero escribirmos un mensaje de Bienvenida a nuestro programa
 
-print("Programa para ingresar usuario y contraseña y denegar a los 3 intentos fallidos. ")
+print("Programa para crear un blucle que presente numeros del 1 al 10. ")
 
-# Definir el nombre de usuario y la contraseña correctos
-usuario1 = "Edison"
-contraseña1= "031201"
+# Empezamos con el bucle for que va a mostrar los numeros del 1 al 10
 
-# Inicializar el contador de intentos
-intentos = 0
+for i in range (1, 11):     #Aqui empezamos con el bucle
 
-# Establecer el límite de intentos
-limite_intentos = 3
+    print(i)                # Aqui nos imprime los numeros
 
-# Ciclo para permitir hasta tres intentos
-while intentos < limite_intentos:
-    # Solicitar el nombre de usuario y la contraseña
-    usuario2 = input("Introduce tu nombre de usuario: ")
-    contraseña2 = input("Introduce tu contraseña: ")
 
-    # Validar si el nombre de usuario y la contraseña son correctos
-    if usuario2 == usuario1 and contraseña2 == contraseña1:
-        print("Bienvenido Edison.")
-        break  # Salir del ciclo si los datos son correctos
-    else:
-        intentos += 1
-        if intentos < limite_intentos:
-            print(f"Datos incorrectos. Te quedan {limite_intentos - intentos} intentos.")
-        else:
-            print("Has superado el número máximo de intentos. Acceso bloqueado.")
