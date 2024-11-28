@@ -16,6 +16,6 @@ contraseña1 = input("Por favor, introduzca la contraseña: ")
 #Utilziamos condicionales if(Si) y else(Sino)
 
 if contraseña == contraseña1:
-    print("La contraseña que usted ingreso es correcta. Bienvenido")
+    print("La contraseña que usted ingreso es correcta. Bienvenido") #Imprimimos si es la contraseña verdadera
 else:
-    print("La contraseña que ustes ingreso es incorrecta. Acceso denegado")
+    print("La contraseña que ustes ingreso es incorrecta. Acceso denegado") #Denegamos el acceso, por contraseña no valida
