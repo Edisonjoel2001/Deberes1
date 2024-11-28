@@ -4,7 +4,8 @@
         #Primero escribirmos un mensaje de Bienvenida a nuestro programa
 print("Programa para calcular si un numero es mayor o menor que 10")
 
-''''''
+'''Empezamos nuestro programa pidiendo al usuario que ingrese un numero 
+Lo cual vamos a escoger el nombre de RESULTADO, para'''
 resultado = float(input("Ingrese un numero: "))
 
 if resultado > 10:
