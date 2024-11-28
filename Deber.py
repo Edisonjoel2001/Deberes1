@@ -1,8 +1,10 @@
 #Deber Numero #1
-#Edison Cabezas
-#
+   #Edison Cabezas
+     #Tercer Semestre
+        #Primero escribirmos un mensaje de Bienvenida a nuestro programa
 print("Programa para calcular si un numero es mayor o menor que 10")
 
+''''''
 resultado = float(input("Ingrese un numero: "))
 
 if resultado > 10:
