@@ -18,6 +18,6 @@ juego = int(input("Adivina el número entre 1 y 10: ")) #Usuario ingresa el nume
 
 # Aqui verificamos si acerto o no al numero y utilizamos las condicionales if(Si) y else(Sino)
 if juego == numero:
-    print("¡Felicidades! Adivinaste el número correctamente.") #Imprimimos si el numero fue el acertado
+    print("Adivinaste el número correctamente. Bien hecho") #Imprimimos si el numero fue el acertado
 else:
     print(f"Lo siento, el número correcto era {numero}. Intenta de nuevo.") # Imprimimos si no fue el correcto y decimos que intente de nuevo
