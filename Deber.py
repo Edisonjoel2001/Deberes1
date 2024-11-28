@@ -10,10 +10,13 @@ print("Bienvenido Programa para calcular si un numero es mayor o menor que 10")
 resultado = float(input("Ingrese un numero: "))
 
 # Utilizamos las condiciones If(si), Elif(Sino,si) y else (Sino)
+
 if resultado > 10:
-    print("El número es mayor que 10.")
+    print("El número es mayor que 10.") #Imprimimos si el numero es Mayor
+
 elif resultado < 10:
-    print("El número es menor que 10.")
+    print("El número es menor que 10.")#Imprimimos si el numero es Menor
+
 else:
-    print("El número es igual a 10.")
+    print("El número es igual a 10.")#Imprimimos el Resultado
 
