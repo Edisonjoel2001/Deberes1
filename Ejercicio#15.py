@@ -1,4 +1,4 @@
-#Ejercicio Número 16
+#Ejercicio Número 15
    #Edison Cabezas
      #Tercer Semestre
         #Primero escribirmos un mensaje de Bienvenida a nuestro programa
