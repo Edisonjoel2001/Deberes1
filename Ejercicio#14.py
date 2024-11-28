@@ -5,7 +5,6 @@
 
 print("Programa para ingresar una calificacion numerica y nos devuelva una letra. ")
 
-
 # Tambien utilizamos float, para hagarrar numeros flotantes y decimales
 
 nota = float(input("Por favor, introduzca la calificacion correspondiente: ")) #Pedimos al profesor la nota numerica
