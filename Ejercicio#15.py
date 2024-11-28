@@ -23,7 +23,7 @@ while intentos < limite_intentos:
 
     # Validar si el nombre de usuario y la contraseña son correctos
     if usuario2 == usuario1 and contraseña2 == contraseña1:
-        print("Acceso concedido.")
+        print("Bienvenido Edison.")
         break  # Salir del ciclo si los datos son correctos
     else:
         intentos += 1
