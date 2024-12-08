@@ -105,9 +105,9 @@ class NumeroAdivinarApp:
         self.intentos_label.config(text=f"Intentos restantes: {self.intentos_restantes}")
 
 
-# Crear la ventana principal
+# Creamos la ventana principal de la aplicacion
 root = tk.Tk()
 app = NumeroAdivinarApp(root)
 
-# Iniciar la aplicación
+# Iniciamos la aplicación
 root.mainloop()
