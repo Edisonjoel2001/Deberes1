@@ -73,7 +73,7 @@ class NumeroAdivinarApp:
             messagebox.showerror("NO", f"El número debe estar entre {self.min_num} y {self.max_num}.")
             return
 
-        # Aqui se empiezan a restar los intentos que se vayan realizando
+        # Aqui se empiezan a restar los intentos que se vayan realizando.
         self.intentos_restantes -= 1
         self.intentos_label.config(text=f"Te quedan estos intentos: {self.intentos_restantes}")
 
